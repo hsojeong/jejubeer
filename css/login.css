@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+input, button {cursor: pointer;}
+#loginsection {
+    padding: 80px 0 ;
+    text-align: center;
+    overflow-x: hidden;
+}
+#loginsection h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #5bdce3;
+    margin: 30px 0;
+}
+
+#loginsection #id , #loginsection #pw {
+    width: 20%;
+    border: 1px solid #206467;
+    padding: 15px;
+    outline: none ;
+} 
+#loginsection #id {
+    border-bottom: none;
+}
+#loginsection #id:focus , #loginsection #pw:focus {
+    background: rgb(229, 234, 238);
+}
+#loginsection label {
+    font-size: 13px;
+    color: #000;
+}
+#loginsection p:nth-child(3) {
+    margin: 20px;
+    padding-right: 240px;
+}
+#loginsection form > p > button {
+    width: 20%;
+    padding: 15px;
+    background: #28cee4;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#loginsection form > p > button:hover {
+    background: #fff;
+    color: #28cee4  ;
+    border: 1px solid #28cee4;
+    padding: 14px;
+}
+#loginsection div:nth-child(3) {
+    font-size: 13px;
+    color: #000;
+}
+#loginsection div:nth-child(3) > a:nth-child(1) {
+    margin: 0 183px 0 5px;
+}
+#loginsection .fitsror {
+    position: relative;
+    margin: 30px 0;
+}
+#loginsection .fitsror::before {
+    content: '';
+    width: 200px; height: 1px;
+    background: #ddd; 
+    position:absolute; top: 50%; left: 700px;
+    margin-top: -0.5; 
+}
+#loginsection .fitsror::after {
+    content: '';
+    width: 200px; height: 1px;
+    background: #ddd; 
+    position:absolute; top: 50%; right: 700px;
+    margin-top: -0.5; 
+}
+#loginsection div:nth-child(5) a {
+    margin: 20px auto; 
+}
+#loginsection div:nth-child(5) a img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+#loginsection .secondor {
+    position: relative;
+    margin: 40px 0;
+}
+#loginsection .secondor::before {
+    content: '';
+    width: 200px; height: 1px;
+    background: #ddd; 
+    position:absolute; top: 50%; left: 700px;
+    margin-top: -0.5; 
+}
+#loginsection .secondor::after {
+    content: '';
+    width: 200px; height: 1px;
+    background: #ddd; 
+    position:absolute; top: 50%; right: 700px;
+    margin-top: -0.5; 
+}
+#loginsection div:nth-child(7) > button {
+    width: 20%;
+    padding: 15px;
+    background: #fff;
+    color: #1ecad3;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border : 1px solid #1ecad3;
+}
+#loginsection div:nth-child(7) > button:hover {
+    background: #1ecad3;
+    color: #fff;
+    border : 1px solid #fff;
+}

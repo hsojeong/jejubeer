@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+*{overflow-x: hidden;}
+
+#collabosection {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* collabo1 */
+#collabosection .collabo1 {
+    background-color: #000;
+}
+#collabosection .collabo1 > div {
+    background-image:url(../images/c24.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 550px;
+    transition: all 1s;
+    transform: scale(0.3);
+}
+#collabosection .collabo1.on > div {
+    transform: scale(1);
+}
+
+
+/* collabo2 */
+#collabosection .collabo2 {
+    background: #000;
+    color: #fff;
+    position: relative;
+    padding: 30px 0;
+}
+#collabosection .collabo2 h3 {
+    float: left;
+    width: 40%;
+    padding: 100px;
+    font-size: 30px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s;
+}
+#collabosection .collabo2.on h3 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo2 > div {
+    float: right;
+    width: 60%;
+    font-size: 15px;
+    line-height: 1.3;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 1s;
+}
+#collabosection .collabo2.on > div {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo2 > div::after {
+    content: '';
+    width: 1200px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 160px; right: 0;
+
+}
+#collabosection .collabo2 > div > p:first-child {
+    padding: 190px 0 20px;
+}
+#collabosection .collabo2 > div > div {
+    background: url(../images/c2.jpg) ;
+    margin-top: 40px;
+    height: 650px;
+    background-position: center;
+}
+
+/* collabo3 */
+#collabosection .collabo3 {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+#collabosection .collabo3 h3 {
+    float: left;
+    width: 40%;
+    padding: 100px;
+    font-size: 30px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s;
+}
+#collabosection .collabo3.on h3 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo3 > div {
+    float: right;
+    width: 60%;
+    font-size: 15px;
+    line-height: 1.5;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all 1s;
+    position: relative;
+}
+#collabosection .collabo3.on > div {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo3 > div::after {
+    content: '';
+    width: 1200px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 160px; right: 0;;
+}
+#collabosection .collabo3 > div > p:first-child {
+    padding: 190px 0 0;
+}
+#collabosection .collabo3 > div > p {
+    margin-bottom: 30px;
+}
+#collabosection .collabo3 > div > p span {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 3px;
+    line-height: 2;
+}
+#collabosection .collabo3 .movie {
+    margin: 50px 0;
+    width: 60%;
+}
+#collabosection .collabo3 .movie .tubewrap {
+    width:100%; padding-top:56.25%; 
+    position:relative; 
+}
+#collabosection .collabo3 .movie .tubewrap iframe {
+    position:absolute; top:0; left: 0;
+} 
+#collabosection .collabo3 > div > p:nth-child(7) {
+    padding:30px 0;
+}
+
+/* collabo4 */
+#collabosection .collabo4 {
+    overflow-y: hidden;
+}
+#collabosection .collabo4 h3 {
+    float: left;
+    width: 30%;
+    padding: 100px;
+    font-size: 35px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 1s;
+}
+#collabosection .collabo4.on h3 {
+    transform: translateY(0%);
+    opacity: 1;
+}
+#collabosection .collabo4 > div {
+    float: right;
+    width: 70%;
+    font-size: 15px;
+    line-height: 1.5;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: all 1s;
+}
+#collabosection .collabo4.on > div {
+    transform: translateY(0%);
+    opacity: 1;
+}
+#collabosection .collabo4 > div > img {
+    width: 30%;
+    margin:150px 1.5% 70px;
+}
+#collabosection .collabo4 > div > p {
+    margin: 30px;
+}
+#collabosection .collabo4 > div > p:last-child {
+    margin-bottom: 90px;
+}
+
+/* collabo5 */
+#collabosection .collabo5 {
+    background: #000;
+    color: #fff;
+    position: relative;
+}
+#collabosection .collabo5 > div:first-child h3 {
+    float: left;
+    width: 40%;
+    padding: 100px;
+    font-size: 30px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s;
+}
+#collabosection .collabo5.on > div:first-child h3 {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo5 > div:first-child p {
+    float: right;
+    width: 60%;
+    padding: 190px 0 0;
+    line-height: 1.8 ;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 1s;
+}
+#collabosection .collabo5.on > div:first-child p {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo5 > div:first-child P::after {
+    content: '';
+    width: 1200px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 135px; right: 0px;
+}
+#collabosection .collabo5 > div:nth-child(2) {
+    width: 80%;
+    margin: 0 10%;
+    padding: 20px 0;
+    overflow-y: hidden;
+}
+#collabosection .collabo5 > div:nth-child(2) > div {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+#collabosection .collabo5 > div:nth-child(2) > div img {
+    width: 100px;
+} 
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(1) {
+    color: #38d430;
+    font-size: 24px;
+    margin: 10px 0 15px;
+}
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(3)  { font-size: 18px; margin: 30px 0;}
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(3) span { font-size: 24px;}
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(4) {color:#38d430; margin-bottom: 20px;;}
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(5),
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(6),
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(7)  {margin-bottom: 20px; font-weight: normal; font-size: 15px;}
+#collabosection .collabo5 > div:nth-child(2) > div p:nth-child(8) {
+    text-align: left; 
+    color: #a5a5a5;
+    font-size: 13px;
+    padding: 110px 70px;
+    opacity: 0.7;
+}
+#collabosection .collabo5 .before {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s 0.6s;
+}
+#collabosection .collabo5.on .before {
+    transform: translateY(0%);
+    opacity: 1;
+}
+#collabosection .collabo5 .now {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s 0.8s;
+}
+#collabosection .collabo5.on .now {
+    transform: translateY(0%);
+    opacity: 1;
+}
+#collabosection .collabo5 .next {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s 1s;
+}
+#collabosection .collabo5.on .next {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+
+
+/* collabo6 */
+#collabosection .collabo6 {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+#collabosection .collabo6 p:nth-child(1) {
+    font-size: 20px;
+    color: #f5f5f5;
+    padding: 50px 0 20px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1.5s;
+}
+#collabosection .collabo6.on p:nth-child(1) {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo6 p:nth-child(2) {
+    font-size: 15px;
+    color: #f5f5f5;
+    margin-bottom: 50px;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 1.5s;
+}
+#collabosection .collabo6.on p:nth-child(2) {
+    transform: translateX(0%);
+    opacity: 1;
+}
+#collabosection .collabo6 .imgs {
+    width: 70%;
+    margin: 0 15%;
+}
+#collabosection .collabo6 .imgs a {
+    float: left;
+    width: 23%;
+    margin: 50px 1%;
+}
+#collabosection .collabo6 p:nth-child(4) {
+    color: #a5a5a5;
+    opacity: 0.5;
+    font-size: 14px;
+    margin:30px 0 50px;
+}

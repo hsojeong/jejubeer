@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+
+/* 미디어쿼리 1024px */
+@media screen and (max-width:1024px) {
+
+#figure video {
+    width: 100%;
+    padding-top: 30px;
+}
+/* article1 */
+#section .slide {
+    height: 500px;
+    overflow-y: hidden;
+}
+#section .slide > div {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#section .slide1 {
+    background: url(../images/bg9.png)  ;
+    background-size: cover;
+    background-position: center;
+}
+#section .slide1 .jj1{
+    margin: 60px 0 0 45%;
+}
+#section .slide1 .jj1 img {
+    width: auto;
+    height: 120px;
+}
+#section .jejularger .jjlimg {
+    float: left;
+    width: 28%;
+    margin-left: 12%;
+}
+#section .jejularger .jjlimg img {
+    width: 180px;
+    height: auto;
+}
+#section .jejularger .jjlspan {
+    font-size: 15px;
+    float: right;
+    width: 60%;
+    padding: 80px 0px;
+}
+
+/* article2 */
+#section .slide2 {
+    background: url(../images/bg7.png) ;
+    background-size: cover;
+    background-position: center;
+}   
+#section .slide2 .jj2 {
+    margin: 100px 0 20px 35%;
+} 
+#section .slide2 .jj2 img {
+    height: 70px;
+}
+#section .jejuwit .jjwimg {
+    float: left;
+    width: 28%;
+    margin-left: 7%;
+}
+#section .jejuwit .jjwimg img {
+    width: 180px;
+    height: auto;
+}
+#section .jejuwit .jjwspan {
+    font-size: 15px;
+    float: right;
+    width: 62%;
+    padding: 90px 0px;
+    margin-right: 3%;   
+}
+
+/* article3 */
+#section .slide3 {
+    background: url(../images/bg3.png)  ;
+    background-size: cover;
+    background-position: center;
+}
+#section .slide3 .jj3 {
+    margin: 100px 0 20px 30%;
+}
+#section .slide3 .jj3 img {
+    height: 70px;
+}
+#section .jejupl .ppimg {
+    float: left;
+    width: 28%;
+    margin-left: 7%;
+}
+#section .jejupl .ppimg img {
+    width: 180px;
+    height: auto;
+}
+#section .jejupl .ppspan {
+    font-size: 15px;
+    float: right;
+    width: 62%;
+    padding: 65px 0px;
+
+}
+/* article4 */
+#section .slide4 {
+    background: url(../images/bg5.png)  ;
+    background-size: cover;
+    background-position: center;
+}
+#section .slide4 .jj4 {
+    margin: 100px 0 20px 30%;
+}
+#section .slide4 .jj4 img {
+    height: 70px;
+}
+#section .jejugm .gmimg {
+    float: left;
+    width: 28%;
+    margin-left: 7%;
+}
+#section .jejugm .gmimg img {
+    width: 180px;
+    height: auto;
+}
+#section .jejugm .gmspan {
+    font-size: 15px;
+    float: right;
+    width: 62%;
+    padding: 75px 0px;
+}
+
+/* article5 */
+#section .article2 {
+    padding: 50px 0;
+}
+#section .article2 > p {
+    font-size: 15px;
+    color: #1ecad3;
+    line-height: 1.5;
+    text-align: center;
+}
+#section .article2> p span {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+
+}
+
+
+
+
+
+/* 미디어쿼리 768px */
+@media screen and (max-width:768px) {
+
+    /* article1 */
+    #section .slide {
+        height: 570px;
+    }
+    #section .slide > div {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #section .slide1 .jj1 {
+        margin: 50px 0 10px 40%;
+    }
+    #section .slide1 .jj1 img {
+        width: auto;
+        height: 110px;
+    }
+    #section .jejularger .jjlimg {
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 30%;
+    }
+    #section .jejularger .jjlimg img {
+        width: 150px;
+    }
+    #section .jejularger .jjlspan {
+        font-size: 14px;
+        float: right;
+        width: 100%;
+        padding: 5px 0px;
+        margin: 10px 0 ;
+        text-align: center;
+        padding-left: 5px;
+    }
+    /* article2 */
+    #section .slide2 .jj2 {
+        margin: 80px 0 20px 30%;
+    }
+    #section .slide2 .jj2 img {
+        height: 60px;
+    }
+    #section .jejuwit .jjwimg {
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 32%;
+    }
+    #section .jejuwit .jjwimg img {
+        width: 160px;
+    }
+    #section .jejuwit .jjwspan {
+        font-size: 14px;
+        float: right;
+        width: 100%;
+        padding: 20px 0px;
+        padding-left: 15px;
+        margin: 5px 0 ;
+        text-align: center;
+    }
+    
+    /* article3 */
+    #section .slide3 .jj3 {
+        margin: 70px 0 10px 30%;
+    }
+    #section .slide3 .jj3 img {
+        height: 60px;
+    }
+    #section .jejupl .ppimg {
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 32%;
+    }
+    #section .jejupl .ppimg img {
+        width: 150px;
+    }
+    #section .jejupl .ppspan {
+        font-size: 14px;
+        float: right;
+        width: 100%;
+        padding: 10px 0px;
+        padding-left: 25px;
+        margin: 5px 0 ;
+        text-align: center;
+    }
+    /* article4 */
+    #section .slide4 .jj4 {
+        margin: 90px 0 15px 30%;
+    }
+    #section .slide4 .jj4 img {
+        height: 60px;
+    }
+    #section .jejugm .gmimg {
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+        padding-left: 32%;
+    }
+    #section .jejugm .gmimg img {
+        width: 150px;
+    }
+    #section .jejugm .gmspan {
+        font-size: 14px;
+        float: right;
+        width: 100%;
+        padding: 10px 0px;
+        padding-left: 25px;
+        margin: 5px 0 ;
+        text-align: center;
+    }
+
+    }
+
+    /* 여기까지 윗부분 수정완료 */

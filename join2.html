@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주맥주::JOIN</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/rwdcommon.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/join2.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+    <header id="header" class="inner">
+        <h1>
+            <a href="./index.html">
+                <div class="blind">제주맥주</div>
+            </a>
+        </h1>
+        <div class="box1">
+            <a href="./login.html">LOGIN</a>
+            <a href="./join1.html">JOIN</a>
+            <a href="#">CART</a>
+            <a href="#">RECRUIT</a>
+        </div>
+        <div class="box2">
+            <a href="#">논알콜 제주누보 구매</a>
+            <a href="#">양조장 예약</a>
+        </div>
+        <div class="opennav">
+            <span class="blind">네이게이션 열고 닫기</span>
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>    
+
+    <nav id="nav">
+        <ul class="depth1 cf">
+            <li><a href="#">EVENT</a></li>
+            <li><a href="#">JEJUBEER LIFE
+                <span>제주맥주 한달살기</span></a>
+            </li>
+            <li><a href="./collaboration.html">COLLABORATION</a></li>
+            <li><a href="#">JEJUBEER SHOP
+                <img src="./images/cart.png" alt=""></a>
+            </li>
+            <li><a href="./brewery.html">BREWERY
+                <span>양조장투어</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="join2section">
+        <h2>JOIN</h2>
+        <P>반갑습니다. 제주맥주입니다.</P>
+        <form action="#" method="post">
+            <div>
+                <h3>본인인증 / 성인인증</h3>
+                <a href="#">휴대폰 인증</a>
+            </div>
+            <div>
+                <input type="text" placeholder="이메일" required autocomplete="off">
+                <input type="password" placeholder="비밀번호" required autocomplete="off">
+                <input type="password" placeholder="비밀번호 확인" required autocomplete="off">
+            </div>
+            <div>
+                <p>이름</p>
+                <input type="text" placeholder="이름을 입력하세요" required>
+            </div>
+            <div>
+                <p>성별</p>
+                <label><input type="radio" name="gender"checked>남성</label>
+                <label><input type="radio" 
+                name="gender">여성</label>
+            </div>
+            <div>
+                <p>연락처</p>
+                <input type="text" placeholder="연락처" required>
+            </div>
+            <div>
+                <p>주소</p>
+                <input type="text" placeholder="주소">
+                <input type="text" placeholder="상세주소">
+            </div>
+            <div>
+                <p>생년월일</p>
+                <select name="year" id="year">
+                    <option>선택</option>
+                </select>
+                <select name="month" id="month">
+                    <option>선택</option>
+                </select>
+                <select name="day" id="day">
+                    <option>선택</option>
+                </select>
+                <select name="sm" id="sm">
+                    <option>선택</option>
+                    <option value="plus">양력</option>
+                    <option value="minus">음력</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">가입하기</button>
+            </div>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <div class="about">
+            <a href="#">ABOUT US</a>
+            <a href="#">OUR BEERS</a>
+            <a href="#">NEWS</a>
+            <a href="#">CONTACT</a>
+            <a href="#">IR</a>
+            <a href="#">이용약관</a>
+            <a href="#"><span>개인정보 처리방침</span></a>
+            <a href="#">영상정보 처리방침</a>
+        </div>
+        <div class="info">
+                <p>제주맥주 주식회사&nbsp;&nbsp;&nbsp;대표이사 문혁기</p>
+                <p>본사)제주특별자치도 제주시 한림읍 금능농공길 62-11</p>
+                <p>서울사무실)서울특별시 중구 동호로 228 동호 38빌딩 6층 </p>
+                <p>호스팅 제공자(주)아임웹</p>
+                <p>사업자등록번호 616-86-27415</p>
+                <p>통신판매업신고번호 제2020-제주한림-0101호</p> 
+                <p>고객센터 02-2235-5559, jejubeer@jejubeer.co.kr</p>
+        </div>
+        <div class="copy">
+            COPYRIGHT 2021@ JEJU BEER COMPANY
+        </div>
+        <div class="sns">
+            <a href="#"><img src="./images/youtube.png" alt="유튜브"></a>
+            <a href="#"><img src="./images/facebook.png" alt="페이스북"></a>
+            <a href="#"><img src="./images/insta.png" alt="인스타그램"></a>
+            <a href="#"><img src="./images/blog.png" alt="블로그"></a>
+        </div>
+    </footer>
+
+    <aside id="fixicon">
+        <a href="#"><img src="./images/mal.png" alt="상담하기"></a>
+        <a href="#"><img src="./images/button-share.png" alt="공유하기"></a>
+        <a href="#"><img src="./images/button-top.png" alt="맨 위로"></a>
+    </aside>
+    
+    <script src="./js/join2.js"></script>
+</body>
+</html>

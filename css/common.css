@@ -1,0 +1,151 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Signika+Negative&display=swap');
+/*font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Signika Negative', sans-serif;*/
+
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* 헤더 */
+#header {
+    text-align: center;
+    position: relative;
+}
+#header h1 {
+    padding: 30px 0;
+}
+#header h1 a {
+    background: url(../images/logo.png) no-repeat;
+    width: 79px;
+    height: 103px;
+    background-size: contain;
+}
+#header .box1 {
+    position: absolute;
+    top: 60px; right: 0;
+    font-size: 15px;
+    color: #888888;
+}
+#header .box1 a {
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+#header .box1 a:hover {
+    color: #000;
+}
+#header .box2 {
+    position: absolute;
+    top: 80px; right: 0;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #fff;
+} 
+#header .box2 a {
+    margin-left: 5px;
+    border-radius: 30px;
+}
+#header .box2 a:nth-child(1) {
+    background: #ff726b;
+    border: 1px solid #ff726b;
+    padding: 5px 19px;
+    transition: all 0.5s;
+}
+#header .box2 a:nth-child(1):hover {
+    background: #fff;
+    color: #ff726b;
+}
+#header .box2 a:nth-child(2) {
+    background: #1ecad3;
+    padding: 6px 20px;
+}
+#header .box2 a:nth-child(2):hover {
+    background: #0b7f85;
+}
+#header .opennav {
+    display: none;
+}
+
+/* navigation */
+ #nav {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #55585b;
+    font-size: 17px;
+}
+#nav .depth1 > li {
+    display: inline-block;
+    margin: 5px 30px;
+}
+#nav .depth1 > li a {
+    padding: 10px;
+}
+#nav .depth1 > li:hover {
+    color: #1ecad3;
+}
+#nav .depth1 > li.on {
+    color: #44b25e;
+    border-bottom: 2px solid #44b25e ;
+    font-size: 19px;
+    width: 170px;
+}
+#nav .depth1 > li a span {
+    display: none;
+}
+#nav .depth1 > li a img {
+    display: none;
+}
+
+/* footer */
+#footer {
+    margin: 50px 0;
+    position: relative;
+}
+#footer .about {
+    color: #999;
+    font-size: 15px;
+    margin: 0px 0 30px 20px;
+}
+#footer .about a {
+    padding: 10px;
+}
+#footer .about a span {
+    color: #000;
+}
+#footer .info {
+    color: #999;
+    font-size: 13px;
+    margin: 0 0 30px 30px;
+    line-height: 1.7;
+}
+#footer .copy {
+    color: #999;
+    font-size: 13px;
+    margin: 0 0 10px 30px;
+}
+#footer .sns {
+    position: absolute;
+    bottom: 210px; right: 90px;
+}
+#footer .sns img {
+    height: 40px;
+    width: auto;
+}
+
+/* aside*/
+#fixicon {
+    position: fixed;
+    bottom: 30px;right: 30px;
+}
+#fixicon a {
+    display: block;
+    margin-bottom: 10px;
+}
+#fixicon img {
+    width: 60px; height: auto;
+}

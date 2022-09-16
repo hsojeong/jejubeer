@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+#figure video {
+    width: 100%;
+}
+/* section */
+#section { 
+    font-family: 'Signika Negative', sans-serif;
+}
+/* article1 */
+#section .slide {
+    height: 610px;
+    position: relative;
+}
+#section .slide > div {
+    max-width: 700px;
+    margin: 0 auto;
+}
+#section .article1 .slidegroup .slick-arrow {
+    border:none;
+    background: none;
+    font-size: 50px;
+    color: #777e7e;
+    position: absolute; top: 50%; transform: translateY(-50%);
+}
+#section .article1 .slidegroup .arrleft {
+    left: 50px;
+    z-index: 99;
+}
+#section .article1 .slidegroup .arrright {
+    right: 50px;
+}
+#section .article1 .slick-dots {
+    position: absolute; 
+    bottom: 50px; left: 50%; transform: translateX(-50%);
+    text-align: center;
+}
+#section .article1 .slick-dots > li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 2px;
+    background: #ddd;
+    position: relative;
+}
+#section .article1 .slick-dots > li button {
+    background: #777e7e;
+    border: none;
+    width: 0px;
+    height: 2px;
+    text-indent: -500px;
+    overflow: hidden;
+    transition: all 0s;
+    position: absolute; top: 0; left: 0;
+}
+#section .article1 .slick-dots > li.slick-active button {
+    width: 50px;
+    transition: all 3s;
+}
+
+
+#section .slide1 {
+    background: url(../images/bg4.png)  ;
+    background-size: cover;
+    background-position: center;
+}
+#section .slide1 .jj1{
+    margin: 60px 0 0 40%;
+}
+#section .slide1 .jj1 img {
+    width: auto;
+    height: 173px;
+}
+#section .jejularger .jjlimg {
+    float: left;
+    width: 35%;
+}
+#section .jejularger .jjlimg img {
+    width: 230px;
+    height: auto;
+}
+#section .jejularger .jjlspan {
+    color: #fff;
+    text-shadow: 1px 1px  #999;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    float: right;
+    width: 65%;
+    padding: 110px 0;
+}
+#section .jejularger .jjlspan strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* article2 */
+#section .slide2 {
+    background: url(../images/bg7.png)  ;
+    background-size: cover;
+    background-position: center;
+}
+#section .slide2 .jj2 {
+    margin: 100px 0 40px 30%;
+}
+#section .slide2 .jj2 img {
+    width: auto;
+    height: 91px;
+}
+#section .jejuwit .jjwimg {
+    float: left;
+    width: 35%;
+}
+#section .jejuwit .jjwimg img {
+    width: 230px;
+    height: auto;
+}
+#section .jejuwit .jjwspan {
+    color: #fff;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    float: right;
+    width: 65%;
+    padding: 115px 0;
+    text-shadow: 1px 1px  #999;
+}
+#section .jejuwit .jjwspan strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+/* article3 */
+#section .slide3 {
+    background: url(../images/bg8.png)  ;
+    background-size: cover;
+    background-position: center;
+}
+#section .slide3 .jj3 {
+    margin: 100px 0 40px 30%;
+}
+#section .slide3 .jj3 img {
+    width: auto;
+    height: 84px;
+}
+#section .jejupl .ppimg {
+    float: left;
+    width: 35%;
+}
+#section .jejupl .ppimg img {
+    width: 230px;
+    height: auto;
+}
+#section .jejupl .ppspan {
+    color: #fff;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    float: right;
+    width: 63%;
+    padding: 100px 0;
+    text-shadow: 1px 1px  #999;
+    margin-left: 2%;
+}
+#section .jejupl .ppspan strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+/* article4 */
+#section .slide4 {
+    background: url(../images/bg2.png)  ;
+    background-size: cover;
+    background-position: center;
+}
+#section .slide4 .jj4 {
+    margin: 100px 0 40px 30%;
+}
+#section .slide4 .jj4 img {
+    width: auto;
+    height: 84px;
+}
+#section .jejugm .gmimg {
+    float: left;
+    width: 35%;
+}
+#section .jejugm .gmimg img {
+    width: 230px;
+    height: auto;
+}
+#section .jejugm .gmspan {
+    color: #fff;
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    float: right;
+    width: 63%;
+    padding: 115px 0;
+    text-shadow: 1px 1px  #999;
+    margin-left: 2%;
+}
+#section .jejugm .gmspan strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* article5 */
+#section .article2 {
+    padding: 80px 0;
+}
+#section .article2 > p {
+    font-size: 17px;
+    color: #1ecad3;
+    line-height: 1.5;
+    text-align: center;
+}
+#section .article2 > p span {
+    font-size: 21px;
+    font-weight: 700;
+}
+#section .manyimage {
+    margin: 50px 2% 0 8% ;
+}
+#section .manyimage img {
+    float: left;
+    width: 10%;
+}
