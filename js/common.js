@@ -22,11 +22,11 @@ $('#nav .depth1 > li').find('a').on('click', function(){
     $('#contents section').remove()
 
     switch (lino) {
-        case 0 : url = "./collaboration.html section"; break;
-        case 1 : url = "./collaboration.html section"; break;
-        case 2 : url = "./collaboration.html section" ; break;
-        case 3 : url = "./brewery.html section"; break;
-        case 4 : url = "./brewery.html section"; break;
+        case 0 : url = "../collaboration.html section"; break;
+        case 1 : url = "../collaboration.html section"; break;
+        case 2 : url = "../collaboration.html section" ; break;
+        case 3 : url = "../brewery.html section"; break;
+        case 4 : url = "../brewery.html section"; break;
     }
     $('#contents').load(url,function(){
         collabo()
