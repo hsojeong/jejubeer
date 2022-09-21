@@ -78,6 +78,25 @@ body {
     color: #55585b;
     font-size: 17px;
 }
+#nav div {
+    display: none;
+    color: #999;
+    font-size: 15px;
+    margin-left:40px;
+}
+#nav div a{
+    display: block;
+    padding-top: 20px;
+}
+#nav div a:first-child {
+    padding-top: 5px;
+}
+#nav div a:last-child {
+    padding-bottom: 20px;
+}
+#nav div a:hover {
+    color: #1ecad3;
+}
 #nav .depth1 > li {
     display: inline-block;
     margin: 5px 30px;

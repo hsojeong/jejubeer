@@ -99,6 +99,9 @@
     #nav.on {
         display: block;
     }
+    #nav.on div {
+        display: block;
+    }
     #nav .depth1 > li {
         display: block;
         margin-bottom: 20px;
@@ -125,7 +128,6 @@
 
 /* footer */
 #footer {
-    padding: 30px 0;
     position: relative;
 }
 #footer .about {
@@ -137,50 +139,11 @@
     padding: 10px 5px;
     margin-top: 25px;
 }
-/* block으로 */
-#footer .about a:nth-child(1)  {
+#footer .about a:nth-child(1) ,#footer .about a:nth-child(2), 
+#footer .about a:nth-child(3) ,#footer .about a:nth-child(4),
+#footer .about a:nth-child(5){
     display: none;
-    position: fixed;
-    top: 420px; left: 38px;
-    width: 100%;
-    z-index: 9999;
-    font-size: 16px;
-}
-#footer .about a:nth-child(2)  {
-    display: none;
-    position: fixed;
-    top: 450px; left: 38px;
-    width: 100%;
-    z-index: 9999;
-    font-size: 16px;
-}
-#footer .about a:nth-child(3) {
-    display: none;
-    position: fixed;
-    top: 480px; left: 38px;
-    width: 100%;
-    z-index: 9999;
-    font-size: 16px;
-}
-#footer .about a:nth-child(4) {
-    display: none;
-    position: fixed;
-    top: 510px; left: 38px;
-    width: 100%;
-    z-index: 9999;
-    font-size: 16px;
-}
-#footer .about a:nth-child(5) {
-    display: none;
-    position: fixed;
-    top: 540px; left: 38px;
-    width: 100%;
-    z-index: 9999;
-    font-size: 16px;
-}
-#footer .about.on a:nth-child(1) ,#footer .about.on a:nth-child(2), #footer .about.on a:nth-child(3) ,#footer .about.on a:nth-child(4),#footer .about.on a:nth-child(5){
-    display: block;
-}
+} 
 #footer .info {
     color: #999;
     font-size: 12px;
@@ -204,7 +167,7 @@
     display: none;
     background-color: #fff;
     border-top: 2px solid #1ecad3 ;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 #footer .sns.on {
