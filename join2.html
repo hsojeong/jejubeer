@@ -8,12 +8,14 @@
     <script src="./js/prefixfree.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/rwdcommon.css">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/join2.css">
     <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 </head>
 <body>
 
@@ -58,19 +60,19 @@
     <section id="join2section">
         <h2>JOIN</h2>
         <P>반갑습니다. 제주맥주입니다.</P>
-        <form action="#" method="post">
+        <form action="#" method="post" name="form1" id="form1">
             <div>
                 <h3>본인인증 / 성인인증</h3>
                 <a href="#">휴대폰 인증</a>
             </div>
             <div>
-                <input type="text" placeholder="이메일" required autocomplete="off">
-                <input type="password" placeholder="비밀번호" required autocomplete="off">
-                <input type="password" placeholder="비밀번호 확인" required autocomplete="off">
+                <input type="text" placeholder="이메일"  autocomplete="off" id="idbox" name="idbox">
+                <input type="password" placeholder="비밀번호" autocomplete="off" id="pwbox" name="pwbox">
+                <input type="password" placeholder="비밀번호 확인" autocomplete="off" id="pwboxok" name="pwboxok">
             </div>
             <div>
                 <p>이름</p>
-                <input type="text" placeholder="이름을 입력하세요" required>
+                <input type="text" placeholder="이름을 입력하세요" >
             </div>
             <div>
                 <p>성별</p>
@@ -80,7 +82,7 @@
             </div>
             <div>
                 <p>연락처</p>
-                <input type="text" placeholder="연락처" required>
+                <input type="text" placeholder="연락처" id="phonebox" name="phonebox" >
             </div>
             <div>
                 <p>주소</p>
@@ -88,21 +90,8 @@
                 <input type="text" placeholder="상세주소">
             </div>
             <div>
-                <p>생년월일</p>
-                <select name="year" id="year">
-                    <option>선택</option>
-                </select>
-                <select name="month" id="month">
-                    <option>선택</option>
-                </select>
-                <select name="day" id="day">
-                    <option>선택</option>
-                </select>
-                <select name="sm" id="sm">
-                    <option>선택</option>
-                    <option value="plus">양력</option>
-                    <option value="minus">음력</option>
-                </select>
+                <label for="birth">생년월일</label>
+                <input type="text" id="birth" name="birth">
             </div>
             <div>
                 <button type="submit">가입하기</button>

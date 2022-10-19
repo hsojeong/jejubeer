@@ -160,6 +160,7 @@ body {
 #fixicon {
     position: fixed;
     bottom: 30px;right: 30px;
+    animation: pulse 1s infinite ;
 }
 #fixicon a {
     display: block;

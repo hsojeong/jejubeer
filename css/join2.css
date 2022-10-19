@@ -17,7 +17,6 @@ input,label, button {cursor: pointer;}
     text-align: center;
     font-size: 15px;
     margin-bottom: 60px;
-    color: #666;
 }
 #join2section form >div:nth-child(1) a {
     padding: 10px 20px;
@@ -93,25 +92,17 @@ input,label, button {cursor: pointer;}
     border-top: none;
     margin-bottom: 30px;
 }
+#join2section form >div:nth-child(7) {
+    margin: 10px 0;
+}
+#join2section #birth {
+     width:150px;
+     padding: 5px;
+     outline: none; 
+     border: 1px solid #ddd;
+     text-align: center;
+}
 
-#join2section form >div:nth-child(7) p {
-    margin-bottom: 20px;
-}
-#join2section select {
-    padding: 3px 0;
-}
-#join2section #year {
-    width: 20%;
-}
-#join2section #month {
-    width: 20%;
-}
-#join2section #day {
-    width: 20%;
-}
-#join2section #sm {
-    width: 15%;
-}
 #join2section form >div:nth-child(8) {
     text-align: center;
     margin: 40px 0;
